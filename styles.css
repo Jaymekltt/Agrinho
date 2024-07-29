@@ -1,0 +1,128 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.benefits, .education, .quality-of-life, .testimonials, .cta {
+    padding: 2em 0;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+}
+
+ul li:before {
+    content: "•";
+    color: #4CAF50;
+    padding-right: 0.5em;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+    display: inline;
+    font-style: italic;
+}
+
+.cta button {
+    background: #4CAF50;
+    color: white;
+    padding: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.cta form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta form label {
+    margin: 0.5em 0 0.2em;
+}
+
+.cta form input, .cta form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
